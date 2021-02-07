@@ -1,0 +1,35 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    max-width: 72.375rem;
+}
+
+.button {
+    padding: 0.8125rem 2.5rem;
+    background: $cyan;
+    border-radius: 1.75rem;
+
+    font-size: 1.25rem;
+    font-weight: $font-weight-bold;
+    color: #ffffff;
+
+    transition: 0.25s ease-in-out;
+
+    &--square {
+        width: 100%;
+        padding: 0.625rem 0;
+        border-radius: 0.3125rem;
+
+        font-size: 1.125rem;
+    }
+
+    &--copied {
+        background: $dark-violet;
+    }
+
+    &:hover {
+        background: $light-cyan;
+    }
+}

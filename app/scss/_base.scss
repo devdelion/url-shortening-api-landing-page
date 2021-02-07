@@ -1,0 +1,91 @@
+/* Colors */
+$cyan: hsl(180, 66%, 49%);
+$light-cyan: hsl(180, 56%, 75%);
+$dark-violet: hsl(257, 27%, 26%);
+$red: hsl(0, 87%, 67%);
+$gray: hsl(225, 32%, 95%);
+$darker-gray: hsl(0, 0, 75%);
+$grayish-violet: hsl(257, 7%, 63%);
+$very-dark-blue: hsl(255, 11%, 22%);
+$very-dark-violet: hsl(260, 8%, 14%);
+
+/* Typography */
+$font-family: "Poppins", sans-serif;
+
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+/* Variables */
+$header-height: 96px;
+
+/* Base & Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #ffffff;
+    font-family: $font-family;
+}
+
+h1,
+h3,
+h5 {
+    margin: 0;
+    font-weight: $font-weight-bold;
+    color: $very-dark-blue;
+}
+
+p {
+    margin: 0;
+    font-weight: $font-weight-medium;
+    color: $grayish-violet;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: inherit;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */

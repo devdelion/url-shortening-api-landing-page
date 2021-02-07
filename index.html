@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./app/css/styles.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <!-- Nav -->
+      <div class="nav">
+        <img src="./app/img/logo.svg" alt="" class="nav__logo">
+
+        <div class="nav__menu js-menu">
+          <ul class="nav__navigation">
+            <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Resources</a></li>
+          </ul>
+          <ul class="nav__auth">
+            <li class="nav__item"><a href="#" class="nav__link">Login</a></li>
+            <li class="nav__item"><button class="button nav__link nav__button">Sign Up</button></li>
+          </ul>
+        </div>
+
+        <div class="nav__burger js-burger">
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+    <!-- Intro -->
+    <section class="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__content">
+            <h1 class="intro__title">More than just shorter links</h1>
+            <p class="intro__text">Build your brand’s recognition and get detailed insights
+              on how your links are performing.</p>
+            <button class="intro__button button button--round">Get Started</button>
+          </div>
+
+          <div class="intro__image">
+            <img src="./app/img/illustration-working.svg" alt="" class="intro__img">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Shortener -->
+    <section class="shortener">
+      <div class="container">
+        <div class="shortener__inner">
+          <form name="shortener">
+            <div class="shortener__form">
+              <input type="url" name="url" placeholder="Shorten a link here..." class="shortener__input">
+              <span class="shortener__error">Please add a link</span>
+              <button type="submit" class="shortener__button button button--square">Shorten It!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="statistics">
+      <div class="container">
+        <div class="statistics__inner">
+
+          <div class="statistics__content">
+            <h3 class="statistics__title">Advanced Statistics</h3>
+            <p class="statistics__text">Track how your links are performing across the web with our
+              advanced statistics dashboard.</p>
+          </div>
+
+          <div class="statistics__features">
+            <span class="statistics__line"></span>
+            <div class="statistics__feature statistics__feature--1">
+              <div class="statistics__icon">
+                <img src="./app/img/icon-brand-recognition.svg" alt="">
+              </div>
+              <h5 class="statistics__subtitle">Brand Recognition</h5>
+              <p class="statistics__subtext">Boost your brand recognition with each click. Generic links don’t
+                mean a thing. Branded links help instil confidence in your content.</p>
+            </div>
+            <div class="statistics__feature statistics__feature--2">
+              <div class="statistics__icon">
+                <img src="./app/img/icon-detailed-records.svg" alt="">
+              </div>
+              <h5 class="statistics__subtitle">Detailed Records</h5>
+              <p class="statistics__subtext">Gain insights into who is clicking your links. Knowing when and where
+                people engage with your content helps inform better decisions.</p>
+            </div>
+            <div class="statistics__feature statistics__feature--3">
+              <div class="statistics__icon">
+                <img src="./app/img/icon-fully-customizable.svg" alt="">
+              </div>
+              <h5 class="statistics__subtitle">Fully Customizable</h5>
+              <p class="statistics__subtext">Improve brand awareness and content discoverability through customizable
+                links, supercharging audience engagement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo -->
+    <section class="promo">
+      <div class="container">
+        <div class="promo__inner">
+          <h3 class="promo__title">Boost your links today</h3>
+          <button class="promo__button button button--round">Get Started</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo">
+          <img src="./app/img/logo--white.svg" alt="" class="footer__img">
+        </div>
+
+        <div class="footer__content">
+          <div class="footer__subtitle">Features</div>
+          <ul class="footer__items">
+            <li class="footer__item"><a href="" class="footer__link">Link Shortening</a></li>
+            <li class="footer__item"><a href="" class="footer__link">Branded Links</a></li>
+            <li class="footer__item"><a href="" class="footer__link">Analytics</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <div class="footer__subtitle">Resources</div>
+          <ul class="footer__items">
+            <li class="footer__item"><a href="" class="footer__link">Blog</a></li>
+            <li class="footer__item"><a href="" class="footer__link">Developers</a></li>
+            <li class="footer__item"><a href="" class="footer__link">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <div class="footer__subtitle">Company</div>
+          <ul class="footer__items">
+            <li class="footer__item"><a href="" class="footer__link">About</a></li>
+            <li class="footer__item"><a href="" class="footer__link">Our Team</a></li>
+            <li class="footer__item"><a href="" class="footer__link">Careers</a></li>
+            <li class="footer__item"><a href="" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <div class="footer__socials">
+            <a href="" class="footer__social footer__social--facebook"></a>
+            <a href="" class="footer__social footer__social--twitter"></a>
+            <a href="" class="footer__social footer__social--pinterest"></a>
+            <a href="" class="footer__social footer__social--instagram"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="./app/js/scripts.js"></script>
+</body>
+
+</html>
