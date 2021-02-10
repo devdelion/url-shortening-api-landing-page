@@ -60,7 +60,7 @@ url.addEventListener('input', function (e) {
 form.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    if (url.validity.valid) {
+    if (url.validity.valid && url.value) {
         const longURL = new URL('https://api.shrtco.de/v2/shorten');
         let xhr = new XMLHttpRequest();
 
